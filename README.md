@@ -1,53 +1,26 @@
-# Annotator_ECG
-![Logo](./assets/LogoAnimSmall.gif)
-# Realize For React
+<!-- ![Logo](./assets/icone.png)-->
+<img src="./assets/icone.png" width="360">
 
-As React applications scale, it becomes more difficult to track state and to have a holistic overview of the component hierarchy. Realize is a tool to help developers visualize the structure and state flow of their React applications, especially when they are growing in scale and complexity. It currently supports React v.16.8.
+# ECG Displayer
 
-![Logo](./assets/treeVisCropped1.gif)
+A Python based App created in order to visualize ECG signals and to associate to them cardiac events to determine the status of the patient. The App is made to be the most easy to use for the user. 
+Both Python code and Executable are available in order to directly use it. 
+Currently only adapted for Creighton University ECG Database but can be easily adapted.
+
+<!-- ![Logo](./assets/tuto.gif) -->
+<img src="./assets/tuto.gif" width="480">
+
+**Prerequisites for Python Execution**
+- Create your environment
+- Activate your environment
+- Run `python -m pip install -r requirements.txt` from inside the root directory
+- Run `main.py`
 
 ## 👩‍💻 How to use it 
-1. Install the extension from the [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/realizeforreact/) store & [Chrome](https://chrome.google.com/webstore/detail/realize-for-react/llondniabnmnappjekpflmgcikaiilmh?authuser=0&hl=en) store
-2. Navigate to your React website
-3. Open the dev tools window and select the Realize Panel
-4. Trigger a state change to see the component tree populate
-
-  
-**Prerequisites**
-- Realize requires React Dev Tools to be installed before use.
-- Realize is best used on non-deployed applications. This uglification of deployed websites makes the component structure pretty unreadable.
-  
-## 🔥 Key Features  
-**Zoom & Pan** - Hold down shift to enable dragging and zooming on the tree (to recenter just click the center button)  
-**Component Focus** - Click on a node to view state, props and children in the right and panel  
-**State Flow** - Click the 'state' toggle to show state flow on the tree. Stateful components have blue nodes and state flow is show by blue links  
-**Search and Highlight** - Enter a component name in the search bar to see all matching nodes pulsate  
-
-## 💻 Installing locally 
-1. Clone the repo onto your computer `git clone https://github.com/oslabs-beta/Realize`
-2. Run `npm i` from inside the root directory
-3. Run `npm build`
-4. Load the extension from the `build/extension` folder into your browser of choice:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For Firefox, navigate to `about:debugging#/runtime/this-firefox` and click Load Temporary Addon  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For Chrome, navigate to `chrome://extensions/` toggle developer mode on and click Load Unpacked  
-5. Follow steps 2 onwards from the 'How to use it' section
-
+1. Select the patient from Creighton University Database (in .mat)
+2. Zoom and Span ECG (using matplotlib library)
+3. Add/Modify/Delete Event
+4. Save and check another patient
 
 ## Authors
-Fan Shao - [Github](https://github.com/fan-shao) | [LinkedIn](https://www.linkedin.com/in/fan-shao/)  
-Harry Clifford - [Github](https://github.com/HpwClifford/) | [LinkedIn](https://www.linkedin.com/in/harry-clifford-3788951a9/)  
-Henry Black - [Github](https://github.com/blackhaj) | [LinkedIn](https://www.linkedin.com/in/henryblack1/)  
-Horatiu Mitrea - [Github](https://github.com/hmitrea) | [LinkedIn](https://www.linkedin.com/in/horatiu-mitrea-515704137/)  
-
-## Contact
-You can contact us personally through our LinkedIn accounts (links above) or as a team via [realizeforreact@gmail.com](mailto:realizeforreact@gmail.com)
-
-## Contributing
-We would love for you to test out our extensions and submit any issues you encounter. Feel free to fork to your own repo and submit PRs. Some features we would like to add:
-1. Performance data on render times
-2. Expanding/collapsing nodes
-3. Autocomplete on search
-
-
-### License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+David Szmul - [Github](https://github.com/DavidSzmul) | [LinkedIn](https://www.linkedin.com/in/david-szmul-207564134/)   
