@@ -10,7 +10,7 @@ Currently only adapted for Creighton University ECG Database but can be easily a
 <!-- ![Logo](./assets/tuto.gif) -->
 <img src="./assets/tuto.gif" width="480">
 
-**Prerequisites for Python Execution**
+## ⌛ Prerequisites for Python Execution
 - Create your environment
 - Activate your environment
 - Run `python -m pip install -r requirements.txt` from inside the root directory
