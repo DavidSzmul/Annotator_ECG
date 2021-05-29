@@ -1,0 +1,5 @@
+# One file but longer to start
+pyinstaller --onefile main.py
+# OR
+# Many files but quicker to start
+pyinstaller main.py
