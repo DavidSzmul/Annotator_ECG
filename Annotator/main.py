@@ -199,7 +199,6 @@ class DisplayECGApp(tk.Tk):
         root = tk.Tk()
         root.withdraw()
         file_mat = askopenfilename(title = "Select Patient", initialdir=path_init,filetypes = [("MAT files","*.mat")]) # show an "Open" dialog box and return the path to the selected file
-        # file_in = 'C:/Users/Ext-David.Szmul/Desktop/Annotation BEST/Events_Annot_Dr/01092.txt'
         root.destroy()
         if file_mat=='':
             return False
